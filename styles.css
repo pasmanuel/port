@@ -1,0 +1,140 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+
+.div-container{
+  background-color:palegreen;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center ;
+  border: 0.2rem solid green;
+  border-radius: 1rem;
+  height :80vh;
+  margin:50px auto;
+  padding: 3rem 1rem;
+  line-height: 2rem;
+  width: 95%;
+ 
+}
+
+
+ div h1,h3{
+   color: green;
+   
+ }
+ h3{
+   padding:0.6rem;
+ }
+ 
+ 
+.radio{
+  display: flex;
+  align-items: Center;
+  justify-content: center;
+}
+
+
+
+
+.social-img{
+  align-items: center ;
+  height: 23px;
+  width: 23px;
+}
+
+button{
+  height: 2rem;
+  width: 100%;
+  background : green;
+  border-radius: 1rem;
+  color:white;
+  font-family:sans-serif;
+}
+
+form >  input{
+  height:2rem;
+  width:100%;
+  border-radius: 1rem;
+  padding-left: 1rem; 
+  border:0.1rem solid green;
+}
+
+form{
+  margin-top: 1rem;
+}
+        
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0; /* Ensures no rounded corners */
+  width: 15px; /* Adjust the size as needed */
+  height: 15px;
+  border: 2px solid #000; /* Border color for the square */
+  margin-top: 1rem;
+}
+
+/* Optional: Add a background color when the radio button is checked */
+input[type="radio"]:checked {
+  background-color: #000;
+}
+.social{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+p{
+  margin-top:1rem;
+  font-size: 0.6rem;
+  padding: 1rem;
+}
+
+p a{ 
+  text-decoration: none;
+}
+
+
+hr{
+  border:none;
+  background: green;
+  width: 90%;
+  height: 2px;
+}
+
+.hr{
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  Margin:0;
+}
+
+
+.privacy{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap: 0;
+ 
+}
+
+.privacy p > a {
+  text-decoration:none ;
+ 
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p{ 
+  margin-top: -1rem;
+
+}
